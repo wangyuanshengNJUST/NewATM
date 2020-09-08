@@ -29,7 +29,7 @@ public class CheckBalanceController {
     @Autowired
     private UserService userService;
 
-    @RequestMapping("/Check1111")
+    @RequestMapping("/Check")
     @ResponseBody
     public BigDecimal demo1(String userid) {
         int userid1 = Integer.parseInt(userid);
